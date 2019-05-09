@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+jupyter = "*"
+jupytext = "*"
+numpy = "*"
+pandas = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+auotpep8 = "*"
+isort = "*"
+
+[requires]
+python_version = "3.7"
