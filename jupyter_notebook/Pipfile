@@ -13,8 +13,10 @@ numpy = "*"
 pandas = "*"
 jupyter-contrib-nbextensions = "*"
 jupyter-nbextensions-configurator = "*"
-auotpep8 = "*"
 isort = "*"
+jupyter-highlight-selected-word = "*"
+jupyterthemes = "*"
+yapf = "*"
 
 [requires]
 python_version = "3.7"

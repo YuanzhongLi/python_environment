@@ -49,9 +49,20 @@ pipenv jupyter nbextensions_configurator enable --user
 nbextensionsのカスタマイズについてはこちら
 http://pynote.hatenablog.com/entry/jupyter-notebook-nbextensions
 
+#### yabfのinstall
+```bash
+pipenv install yapf
+```
+
 ### syntax highlightの有効化
 ```bash
 pipenv run jupyter nbextension enable highlight_selected_word/main
+```
+
+## テーマカスタマイズ
+```bash
+pipenv install jupyterthemes
+pipenv run jt -t monokai -T -N -ofs 11 -f inconsolata -tfs 14 -cellw 80%
 ```
 
 ## numpy, pandasのinstall
